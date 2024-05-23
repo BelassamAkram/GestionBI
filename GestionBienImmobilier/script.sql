@@ -69,7 +69,7 @@ CREATE TABLE Transaction(
     NomCL varchar2(20) NOT NULL,
     PrenomCL varchar2(20) NOT NULL,
     Type varchar2(20) NOT NULL,
-    NumBI varchar2(20) NOT NULL,
+    NumBI varchar2(20) NOT NULL UNIQUE,
     DateD date NOT NULL ,
     DateF date,
     Montant varchar2(20) NOT NULL,
